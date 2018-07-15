@@ -21,7 +21,7 @@ call plug#end()
 
 " ========= GENERAL VIM SETTINGS ===========
 syntax enable
-" set background=dark
+" set background=light
 colorscheme onedark
 "let g:solarized_termcolors=256
 
