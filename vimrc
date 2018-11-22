@@ -10,6 +10,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'joshdick/onedark.vim'
 " Plug 'vim-airline/vim-airline-themes'
+" vim-plug
+Plug 'LnL7/vim-nix'
 
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_smart_case = 1
@@ -82,3 +84,5 @@ set ts=4
 " indent when moving to the next line while writing code
 set autoindent
 
+" NerdTree
+map <C-n> :NERDTreeToggle<CR>
